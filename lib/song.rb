@@ -14,6 +14,10 @@ def initialize(song_name, name, artist)
   @@artists << artist
 end
 
+def artist
+  @artist
+end
+
 end
 # new_song = Song.new
 # new_song.name = "99 Problems"
