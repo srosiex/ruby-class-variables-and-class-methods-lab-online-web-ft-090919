@@ -15,9 +15,9 @@ def initialize(song,name,artist)
 end
 
 end
-new_song = Song.new
-new_song.name = "99 Problems"
-new_song.artist = "Jay Z"
-new_song.genre = "HipHop"
-
-new_song.artist
+# new_song = Song.new
+# new_song.name = "99 Problems"
+# new_song.artist = "Jay Z"
+# new_song.genre = "HipHop"
+# 
+# new_song.artist
