@@ -14,8 +14,8 @@ def initialize(song_name, name, artist)
   @@artists << artist
 end
 
-def artist
-  @artist
+def self.artists
+  @@artist.uniq!
 end
 
 end
