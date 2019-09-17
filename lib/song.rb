@@ -17,6 +17,9 @@ end
 def self.artists
   @@artist.uniq!
 end
+def self.count
+  @@count
+end
 
 end
 # new_song = Song.new
